@@ -1,0 +1,1332 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "4df2fa67-de48-4b5c-8353-d0dab565bfa6",
+        "info": "Sedan",
+        "created_at": "2023-08-07T00:02:03.109Z",
+        "updated_at": "2023-08-06T11:25:54.594Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2ced72b1-a836-497a-a919-9cb651482757",
+        "info": "SUV",
+        "created_at": "2023-08-06T12:54:11.576Z",
+        "updated_at": "2023-08-06T12:52:59.800Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "932e8220-1d6f-42f1-a093-81ba9b415864",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T09:58:32.340Z",
+        "updated_at": "2023-08-06T11:37:19.969Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c9b9c59-00fe-446e-9ade-767a24d56df7",
+        "info": "Truck",
+        "created_at": "2023-08-06T20:50:55.760Z",
+        "updated_at": "2023-08-06T09:02:22.380Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f67dd42-6d38-49ec-ade2-7486160c06a4",
+        "info": "Motorcycle",
+        "created_at": "2023-08-07T06:23:58.111Z",
+        "updated_at": "2023-08-06T17:54:29.746Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "93a9ad70-f12f-4a90-b5d2-d2eff66a9356",
+        "usage_date": "2023-08-06T23:27:40.798Z",
+        "usage_time": "2023-08-06T10:00:35.285Z",
+        "created_at": "2023-08-07T07:29:20.012Z",
+        "updated_at": "2023-08-07T06:40:47.804Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "932e8220-1d6f-42f1-a093-81ba9b415864"
+      },
+      {
+        "id": "294c96a4-0bd2-4806-bd62-c37449829acd",
+        "usage_date": "2023-08-06T18:51:53.657Z",
+        "usage_time": "2023-08-06T08:57:05.462Z",
+        "created_at": "2023-08-07T06:36:59.002Z",
+        "updated_at": "2023-08-07T02:21:24.350Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "932e8220-1d6f-42f1-a093-81ba9b415864"
+      },
+      {
+        "id": "881bde6b-e169-47a4-8ea7-ef74e3838329",
+        "usage_date": "2023-08-06T09:08:44.256Z",
+        "usage_time": "2023-08-06T13:11:29.255Z",
+        "created_at": "2023-08-07T06:56:07.951Z",
+        "updated_at": "2023-08-07T04:48:23.060Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "932e8220-1d6f-42f1-a093-81ba9b415864"
+      },
+      {
+        "id": "af5fd93c-f2c0-4355-a8c0-9f8391615e5c",
+        "usage_date": "2023-08-06T09:44:14.819Z",
+        "usage_time": "2023-08-07T01:34:25.210Z",
+        "created_at": "2023-08-06T12:00:38.372Z",
+        "updated_at": "2023-08-06T09:41:44.931Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6c9b9c59-00fe-446e-9ade-767a24d56df7"
+      },
+      {
+        "id": "f079460b-f130-4c39-a4f0-998c60e473b5",
+        "usage_date": "2023-08-06T22:03:53.274Z",
+        "usage_time": "2023-08-06T22:27:44.461Z",
+        "created_at": "2023-08-07T07:23:26.875Z",
+        "updated_at": "2023-08-07T02:26:43.776Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5f67dd42-6d38-49ec-ade2-7486160c06a4"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "93768a11-cbbf-49c9-a831-3670a5747958",
+        "start_time": "2023-08-07T00:45:19.449Z",
+        "end_time": "2023-08-07T02:41:05.683Z",
+        "created_at": "2023-08-06T14:26:56.212Z",
+        "updated_at": "2023-08-06T23:03:52.577Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5f67dd42-6d38-49ec-ade2-7486160c06a4"
+      },
+      {
+        "id": "2af646e9-f071-4605-85e4-0f46aec56598",
+        "start_time": "2023-08-07T08:36:53.466Z",
+        "end_time": "2023-08-06T17:58:06.507Z",
+        "created_at": "2023-08-07T03:00:01.832Z",
+        "updated_at": "2023-08-07T02:39:34.314Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6c9b9c59-00fe-446e-9ade-767a24d56df7"
+      },
+      {
+        "id": "0fb97227-f33f-4449-ad5a-0e843f14e78a",
+        "start_time": "2023-08-07T01:54:07.874Z",
+        "end_time": "2023-08-07T03:28:08.742Z",
+        "created_at": "2023-08-07T05:11:51.943Z",
+        "updated_at": "2023-08-07T05:01:41.990Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "932e8220-1d6f-42f1-a093-81ba9b415864"
+      },
+      {
+        "id": "3e644a47-f38b-4eeb-be2b-196b420ef7fb",
+        "start_time": "2023-08-06T18:17:22.278Z",
+        "end_time": "2023-08-06T18:07:15.974Z",
+        "created_at": "2023-08-06T14:48:48.616Z",
+        "updated_at": "2023-08-07T00:12:12.189Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2ced72b1-a836-497a-a919-9cb651482757"
+      },
+      {
+        "id": "040958a4-0ed3-42d4-b226-4d9e5fba446b",
+        "start_time": "2023-08-06T13:20:36.447Z",
+        "end_time": "2023-08-06T21:29:32.058Z",
+        "created_at": "2023-08-07T08:23:23.333Z",
+        "updated_at": "2023-08-06T18:09:19.533Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2ced72b1-a836-497a-a919-9cb651482757"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "77dfbc45-7149-4b0c-b31b-4eb7ac5da8db",
+        "info": "Sedan",
+        "created_at": "2023-08-06T14:14:59.429Z",
+        "updated_at": "2023-08-07T08:29:17.725Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1d45886b-bdf9-4836-974b-2d82ddf7d605",
+        "info": "SUV",
+        "created_at": "2023-08-07T00:00:49.575Z",
+        "updated_at": "2023-08-06T15:32:34.280Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "89ce8ed3-1c98-45b3-8b51-e958a1cf9157",
+        "info": "Sports Car",
+        "created_at": "2023-08-07T00:05:25.408Z",
+        "updated_at": "2023-08-06T18:57:27.165Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8765c621-b3c7-469a-8067-a81944bb0d6e",
+        "info": "Truck",
+        "created_at": "2023-08-06T14:45:48.550Z",
+        "updated_at": "2023-08-06T19:08:10.632Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1f73d606-42c1-4689-aa8f-33135aa6ad11",
+        "info": "Motorcycle",
+        "created_at": "2023-08-06T10:32:32.616Z",
+        "updated_at": "2023-08-06T15:56:00.238Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "fa4dc74d-5602-4822-a517-5888e08593a8",
+        "usage_date": "2023-08-06T21:06:02.930Z",
+        "usage_time": "2023-08-06T15:05:00.114Z",
+        "created_at": "2023-08-07T02:42:27.066Z",
+        "updated_at": "2023-08-06T14:11:49.557Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d45886b-bdf9-4836-974b-2d82ddf7d605"
+      },
+      {
+        "id": "683e60b7-be45-453d-90c8-27818ec49ede",
+        "usage_date": "2023-08-06T12:41:29.855Z",
+        "usage_time": "2023-08-06T20:13:21.924Z",
+        "created_at": "2023-08-07T04:32:45.527Z",
+        "updated_at": "2023-08-06T10:57:55.755Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "77dfbc45-7149-4b0c-b31b-4eb7ac5da8db"
+      },
+      {
+        "id": "c647e1a7-7ace-45c7-9959-a44d16f767c7",
+        "usage_date": "2023-08-07T06:30:15.990Z",
+        "usage_time": "2023-08-06T18:02:39.973Z",
+        "created_at": "2023-08-07T07:19:12.277Z",
+        "updated_at": "2023-08-07T06:36:01.539Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "89ce8ed3-1c98-45b3-8b51-e958a1cf9157"
+      },
+      {
+        "id": "9ff09bde-777c-463f-b20e-6f1f6f15f88d",
+        "usage_date": "2023-08-07T02:19:50.572Z",
+        "usage_time": "2023-08-06T10:30:54.106Z",
+        "created_at": "2023-08-06T19:34:03.295Z",
+        "updated_at": "2023-08-07T06:14:22.848Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "77dfbc45-7149-4b0c-b31b-4eb7ac5da8db"
+      },
+      {
+        "id": "62d27551-3680-44e7-b290-2ccb8db8ca86",
+        "usage_date": "2023-08-07T08:10:25.708Z",
+        "usage_time": "2023-08-06T12:43:40.978Z",
+        "created_at": "2023-08-07T01:40:25.259Z",
+        "updated_at": "2023-08-06T11:03:30.292Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1f73d606-42c1-4689-aa8f-33135aa6ad11"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "4d1cec2f-94bd-40ca-9831-17892ffeb4ce",
+        "start_time": "2023-08-06T13:14:08.274Z",
+        "end_time": "2023-08-07T07:40:57.155Z",
+        "created_at": "2023-08-06T12:29:53.473Z",
+        "updated_at": "2023-08-06T15:07:59.465Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1f73d606-42c1-4689-aa8f-33135aa6ad11"
+      },
+      {
+        "id": "a0aedc8b-e638-482b-8d1b-f17e31612383",
+        "start_time": "2023-08-07T08:03:11.578Z",
+        "end_time": "2023-08-07T02:17:01.559Z",
+        "created_at": "2023-08-07T06:08:18.086Z",
+        "updated_at": "2023-08-06T11:01:47.079Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "89ce8ed3-1c98-45b3-8b51-e958a1cf9157"
+      },
+      {
+        "id": "d93c7872-c2af-441e-80e0-0a4fe69bf993",
+        "start_time": "2023-08-06T09:57:49.740Z",
+        "end_time": "2023-08-06T14:11:47.126Z",
+        "created_at": "2023-08-06T10:26:43.873Z",
+        "updated_at": "2023-08-07T01:25:33.780Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d45886b-bdf9-4836-974b-2d82ddf7d605"
+      },
+      {
+        "id": "1f3c33e0-124d-4175-95ea-805ca81fed49",
+        "start_time": "2023-08-06T13:04:58.495Z",
+        "end_time": "2023-08-06T12:41:11.437Z",
+        "created_at": "2023-08-07T08:28:57.920Z",
+        "updated_at": "2023-08-06T12:43:27.030Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1d45886b-bdf9-4836-974b-2d82ddf7d605"
+      },
+      {
+        "id": "947e42ea-12e0-4b4d-bd8a-202ec9393305",
+        "start_time": "2023-08-07T04:20:14.491Z",
+        "end_time": "2023-08-07T04:56:55.018Z",
+        "created_at": "2023-08-06T18:40:23.329Z",
+        "updated_at": "2023-08-07T01:28:19.005Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "77dfbc45-7149-4b0c-b31b-4eb7ac5da8db"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "f4627b4f-1bb8-4100-81f2-686ba5bfaaf9",
+        "info": "Sedan",
+        "created_at": "2023-08-06T16:22:10.618Z",
+        "updated_at": "2023-08-06T21:35:33.536Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d27b903e-c5c3-4980-81d7-687ca49fe853",
+        "info": "SUV",
+        "created_at": "2023-08-06T12:46:59.234Z",
+        "updated_at": "2023-08-06T12:35:12.906Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b7618eb5-85bc-40e4-a883-378b9f0c91e0",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T09:47:25.058Z",
+        "updated_at": "2023-08-07T06:23:02.644Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "070227d2-0777-46f2-ae8a-9071754cdce5",
+        "info": "Truck",
+        "created_at": "2023-08-06T19:09:28.542Z",
+        "updated_at": "2023-08-06T18:27:03.874Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95185ac6-1898-46f6-b29a-09ca2cf76c10",
+        "info": "Motorcycle",
+        "created_at": "2023-08-07T00:25:10.023Z",
+        "updated_at": "2023-08-06T09:14:51.223Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "8a06ce3b-b834-4d8f-924c-00d3d9e7f717",
+        "usage_date": "2023-08-06T09:41:31.605Z",
+        "usage_time": "2023-08-06T09:59:39.636Z",
+        "created_at": "2023-08-06T22:38:45.122Z",
+        "updated_at": "2023-08-06T13:46:50.658Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "070227d2-0777-46f2-ae8a-9071754cdce5"
+      },
+      {
+        "id": "2c04e955-5ca2-4ef3-a674-57e84c68408d",
+        "usage_date": "2023-08-07T07:07:19.027Z",
+        "usage_time": "2023-08-06T19:22:08.723Z",
+        "created_at": "2023-08-06T18:58:02.406Z",
+        "updated_at": "2023-08-06T19:36:46.715Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f4627b4f-1bb8-4100-81f2-686ba5bfaaf9"
+      },
+      {
+        "id": "1aecdfee-9cbd-434c-9c62-ea859565f4b8",
+        "usage_date": "2023-08-06T16:55:36.837Z",
+        "usage_time": "2023-08-07T01:50:19.632Z",
+        "created_at": "2023-08-07T00:01:44.851Z",
+        "updated_at": "2023-08-07T06:55:41.184Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f4627b4f-1bb8-4100-81f2-686ba5bfaaf9"
+      },
+      {
+        "id": "9399bd05-9195-4dca-8ceb-0774a9b2d61b",
+        "usage_date": "2023-08-06T14:25:19.098Z",
+        "usage_time": "2023-08-06T17:03:15.032Z",
+        "created_at": "2023-08-06T13:15:09.668Z",
+        "updated_at": "2023-08-07T03:24:36.195Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f4627b4f-1bb8-4100-81f2-686ba5bfaaf9"
+      },
+      {
+        "id": "284d03d6-a1c4-48fd-8147-182615889d74",
+        "usage_date": "2023-08-06T18:47:39.482Z",
+        "usage_time": "2023-08-06T17:16:28.871Z",
+        "created_at": "2023-08-06T21:14:19.756Z",
+        "updated_at": "2023-08-06T08:48:45.296Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b7618eb5-85bc-40e4-a883-378b9f0c91e0"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2cd7c860-23aa-44aa-9c6a-096dbeaf7a1b",
+        "start_time": "2023-08-06T11:10:54.596Z",
+        "end_time": "2023-08-07T06:19:34.285Z",
+        "created_at": "2023-08-06T15:32:51.907Z",
+        "updated_at": "2023-08-07T02:42:33.071Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "070227d2-0777-46f2-ae8a-9071754cdce5"
+      },
+      {
+        "id": "748d2d1b-ffe4-4431-ab00-c36ac37f31a2",
+        "start_time": "2023-08-06T15:37:14.349Z",
+        "end_time": "2023-08-06T11:41:37.925Z",
+        "created_at": "2023-08-07T06:49:01.870Z",
+        "updated_at": "2023-08-07T03:59:01.633Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "070227d2-0777-46f2-ae8a-9071754cdce5"
+      },
+      {
+        "id": "dc2511de-a468-4289-98e4-cffb76cdbc22",
+        "start_time": "2023-08-06T13:12:16.728Z",
+        "end_time": "2023-08-07T01:18:59.256Z",
+        "created_at": "2023-08-06T14:13:54.619Z",
+        "updated_at": "2023-08-07T07:40:13.911Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "95185ac6-1898-46f6-b29a-09ca2cf76c10"
+      },
+      {
+        "id": "2b8a23a2-5f2c-4e93-96d5-89eeb4f8b453",
+        "start_time": "2023-08-07T08:07:43.481Z",
+        "end_time": "2023-08-06T14:53:49.197Z",
+        "created_at": "2023-08-06T10:38:25.084Z",
+        "updated_at": "2023-08-07T02:27:09.447Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f4627b4f-1bb8-4100-81f2-686ba5bfaaf9"
+      },
+      {
+        "id": "accbf146-4939-47ed-b6f5-208a11c7831e",
+        "start_time": "2023-08-06T12:08:01.600Z",
+        "end_time": "2023-08-06T12:30:56.127Z",
+        "created_at": "2023-08-07T07:17:27.764Z",
+        "updated_at": "2023-08-06T19:08:32.396Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d27b903e-c5c3-4980-81d7-687ca49fe853"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "c2e74c64-0dca-45c5-bca4-74414ac84b12",
+        "info": "Sedan",
+        "created_at": "2023-08-07T06:04:59.710Z",
+        "updated_at": "2023-08-07T03:35:05.203Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9ace55de-6bd1-4d14-8676-ed495554d038",
+        "info": "SUV",
+        "created_at": "2023-08-06T09:55:07.162Z",
+        "updated_at": "2023-08-06T20:30:51.241Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dad0783b-a955-40ef-94ef-bd39c193943d",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T09:11:58.588Z",
+        "updated_at": "2023-08-06T10:16:58.466Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6d5d5517-8e42-4fed-b0a5-e3cc7039e527",
+        "info": "Truck",
+        "created_at": "2023-08-07T08:19:36.926Z",
+        "updated_at": "2023-08-06T17:55:42.549Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53ca24cf-2740-4664-9782-6640a115a643",
+        "info": "Motorcycle",
+        "created_at": "2023-08-06T16:35:46.817Z",
+        "updated_at": "2023-08-06T20:26:12.726Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "965e8dba-4581-4359-bbe1-de45741e884d",
+        "usage_date": "2023-08-06T18:10:36.131Z",
+        "usage_time": "2023-08-06T21:42:42.374Z",
+        "created_at": "2023-08-06T15:41:08.491Z",
+        "updated_at": "2023-08-06T17:49:29.201Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "53ca24cf-2740-4664-9782-6640a115a643"
+      },
+      {
+        "id": "e1e5b1b4-f5b2-499d-9585-83e46139c0a3",
+        "usage_date": "2023-08-06T13:08:30.715Z",
+        "usage_time": "2023-08-06T19:25:04.688Z",
+        "created_at": "2023-08-07T03:03:25.396Z",
+        "updated_at": "2023-08-06T12:03:23.173Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6d5d5517-8e42-4fed-b0a5-e3cc7039e527"
+      },
+      {
+        "id": "fb37c5e8-935a-4973-b595-cee3b50a75c2",
+        "usage_date": "2023-08-07T01:13:45.533Z",
+        "usage_time": "2023-08-06T18:56:40.203Z",
+        "created_at": "2023-08-06T22:52:15.640Z",
+        "updated_at": "2023-08-06T15:47:14.123Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9ace55de-6bd1-4d14-8676-ed495554d038"
+      },
+      {
+        "id": "8b79fcc0-7fe2-4b2d-9222-d53e7953f749",
+        "usage_date": "2023-08-06T19:53:11.461Z",
+        "usage_time": "2023-08-06T15:46:31.289Z",
+        "created_at": "2023-08-06T15:57:37.619Z",
+        "updated_at": "2023-08-07T02:02:41.647Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6d5d5517-8e42-4fed-b0a5-e3cc7039e527"
+      },
+      {
+        "id": "07d52550-7002-4913-8c0f-7fd6280bc350",
+        "usage_date": "2023-08-06T11:55:48.255Z",
+        "usage_time": "2023-08-06T11:11:38.751Z",
+        "created_at": "2023-08-06T21:06:50.513Z",
+        "updated_at": "2023-08-06T10:05:14.623Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9ace55de-6bd1-4d14-8676-ed495554d038"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "d355cd96-44d4-4c0d-a6cb-6a141e4546c2",
+        "start_time": "2023-08-07T02:46:44.014Z",
+        "end_time": "2023-08-06T20:03:16.980Z",
+        "created_at": "2023-08-06T22:04:57.463Z",
+        "updated_at": "2023-08-06T17:03:34.179Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "53ca24cf-2740-4664-9782-6640a115a643"
+      },
+      {
+        "id": "aad19916-6419-4687-b217-8ecb7c269d8e",
+        "start_time": "2023-08-06T09:18:31.772Z",
+        "end_time": "2023-08-06T12:21:08.986Z",
+        "created_at": "2023-08-07T05:42:18.347Z",
+        "updated_at": "2023-08-06T12:40:13.327Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "53ca24cf-2740-4664-9782-6640a115a643"
+      },
+      {
+        "id": "f527317a-8189-4f12-b19f-702419096a32",
+        "start_time": "2023-08-06T16:42:27.105Z",
+        "end_time": "2023-08-06T19:38:02.663Z",
+        "created_at": "2023-08-07T06:53:26.282Z",
+        "updated_at": "2023-08-07T03:35:50.955Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dad0783b-a955-40ef-94ef-bd39c193943d"
+      },
+      {
+        "id": "ed5ef115-b740-4a6a-87d2-c66a263a6e9d",
+        "start_time": "2023-08-06T17:36:03.741Z",
+        "end_time": "2023-08-06T18:30:43.887Z",
+        "created_at": "2023-08-06T10:35:10.555Z",
+        "updated_at": "2023-08-06T13:52:45.431Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dad0783b-a955-40ef-94ef-bd39c193943d"
+      },
+      {
+        "id": "d4e316cb-4e0d-431f-a57c-c100a152ea09",
+        "start_time": "2023-08-06T23:30:07.308Z",
+        "end_time": "2023-08-06T14:42:07.402Z",
+        "created_at": "2023-08-06T20:22:44.936Z",
+        "updated_at": "2023-08-06T21:32:05.438Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dad0783b-a955-40ef-94ef-bd39c193943d"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "d975738a-5671-4afb-b9d9-b88a90d0db4c",
+        "info": "Sedan",
+        "created_at": "2023-08-07T07:31:26.913Z",
+        "updated_at": "2023-08-06T15:36:18.651Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "02fce8a9-9b67-4d66-a5e9-6c373a8694a6",
+        "info": "SUV",
+        "created_at": "2023-08-06T10:46:12.653Z",
+        "updated_at": "2023-08-07T00:21:05.617Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9129c194-4404-4993-a7b8-2d7ae7653625",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T19:09:12.279Z",
+        "updated_at": "2023-08-06T19:00:02.303Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c1c3db8d-9352-403c-986a-2b27280df13c",
+        "info": "Truck",
+        "created_at": "2023-08-07T06:23:15.481Z",
+        "updated_at": "2023-08-06T16:23:55.630Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9aa5acfd-928d-4cc7-a277-4883e15e5e04",
+        "info": "Motorcycle",
+        "created_at": "2023-08-06T14:41:44.578Z",
+        "updated_at": "2023-08-07T07:33:47.873Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "33c40834-9785-4be6-97ba-6492c868fbd3",
+        "usage_date": "2023-08-06T15:27:00.845Z",
+        "usage_time": "2023-08-06T15:46:13.553Z",
+        "created_at": "2023-08-06T20:22:09.974Z",
+        "updated_at": "2023-08-07T04:51:13.971Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c1c3db8d-9352-403c-986a-2b27280df13c"
+      },
+      {
+        "id": "9c176a2d-ffb7-4fcb-812e-bc55c6ae5db9",
+        "usage_date": "2023-08-06T22:27:58.210Z",
+        "usage_time": "2023-08-07T07:32:46.580Z",
+        "created_at": "2023-08-07T00:45:36.357Z",
+        "updated_at": "2023-08-07T01:33:40.822Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c1c3db8d-9352-403c-986a-2b27280df13c"
+      },
+      {
+        "id": "ecdd1a2f-98a8-4237-9019-3e8abaff6f26",
+        "usage_date": "2023-08-07T00:08:19.090Z",
+        "usage_time": "2023-08-06T13:39:21.541Z",
+        "created_at": "2023-08-07T08:41:12.236Z",
+        "updated_at": "2023-08-06T19:56:24.235Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d975738a-5671-4afb-b9d9-b88a90d0db4c"
+      },
+      {
+        "id": "e4f2ae53-8728-4899-95e2-5f5191c2141a",
+        "usage_date": "2023-08-07T02:40:57.674Z",
+        "usage_time": "2023-08-06T18:11:47.998Z",
+        "created_at": "2023-08-06T12:05:46.820Z",
+        "updated_at": "2023-08-06T17:28:16.607Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d975738a-5671-4afb-b9d9-b88a90d0db4c"
+      },
+      {
+        "id": "993a4df2-ba1b-4c5c-a6cb-d69e0a400b7f",
+        "usage_date": "2023-08-07T04:48:47.465Z",
+        "usage_time": "2023-08-07T00:22:22.698Z",
+        "created_at": "2023-08-07T05:57:31.970Z",
+        "updated_at": "2023-08-07T00:34:41.504Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9aa5acfd-928d-4cc7-a277-4883e15e5e04"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "a30254ad-fdbf-4901-9440-ac8214257198",
+        "start_time": "2023-08-07T05:53:38.852Z",
+        "end_time": "2023-08-07T03:59:51.512Z",
+        "created_at": "2023-08-06T13:42:55.159Z",
+        "updated_at": "2023-08-07T01:08:57.555Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "02fce8a9-9b67-4d66-a5e9-6c373a8694a6"
+      },
+      {
+        "id": "1fb7b24a-c393-4a2a-8c0f-e20fa05433a8",
+        "start_time": "2023-08-07T04:42:41.324Z",
+        "end_time": "2023-08-07T01:59:47.977Z",
+        "created_at": "2023-08-06T08:57:58.214Z",
+        "updated_at": "2023-08-06T08:55:58.257Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "02fce8a9-9b67-4d66-a5e9-6c373a8694a6"
+      },
+      {
+        "id": "1fc5979e-2d87-4be6-9ca8-0c21c73d54ab",
+        "start_time": "2023-08-06T17:49:51.857Z",
+        "end_time": "2023-08-07T07:27:44.501Z",
+        "created_at": "2023-08-06T19:36:13.819Z",
+        "updated_at": "2023-08-07T06:42:44.812Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c1c3db8d-9352-403c-986a-2b27280df13c"
+      },
+      {
+        "id": "fa642956-b5ca-49f9-8676-211c9053d965",
+        "start_time": "2023-08-06T22:02:41.019Z",
+        "end_time": "2023-08-06T18:06:38.661Z",
+        "created_at": "2023-08-07T01:11:08.221Z",
+        "updated_at": "2023-08-06T14:26:36.063Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9129c194-4404-4993-a7b8-2d7ae7653625"
+      },
+      {
+        "id": "eea94b09-fb99-416c-a8c8-a8a08ecfe700",
+        "start_time": "2023-08-06T20:03:26.740Z",
+        "end_time": "2023-08-06T11:51:12.448Z",
+        "created_at": "2023-08-06T13:32:37.467Z",
+        "updated_at": "2023-08-06T23:39:22.591Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9129c194-4404-4993-a7b8-2d7ae7653625"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "3334de6d-038a-467f-8518-3e4a0e9cf306",
+        "info": "Sedan",
+        "created_at": "2023-08-07T07:19:04.392Z",
+        "updated_at": "2023-08-06T17:08:10.443Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b0ba1dc8-82de-4731-9e43-35e21be82225",
+        "info": "SUV",
+        "created_at": "2023-08-06T14:16:31.200Z",
+        "updated_at": "2023-08-07T04:32:29.347Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba4fb7a3-d06f-4cfb-a25a-58755d68a4fe",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T17:45:31.359Z",
+        "updated_at": "2023-08-07T04:07:02.551Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "71ef70cf-7630-4b52-8899-c1d74e49e2ab",
+        "info": "Truck",
+        "created_at": "2023-08-06T21:39:14.347Z",
+        "updated_at": "2023-08-06T19:33:21.715Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d26ab11-c2a3-4ea4-8c2c-67e2f7e670d0",
+        "info": "Motorcycle",
+        "created_at": "2023-08-06T23:38:01.614Z",
+        "updated_at": "2023-08-07T02:05:53.643Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "3798a7cc-f0ad-4a6f-a84a-e84ca4faeea6",
+        "usage_date": "2023-08-06T20:48:06.453Z",
+        "usage_time": "2023-08-06T12:01:28.960Z",
+        "created_at": "2023-08-07T04:09:04.529Z",
+        "updated_at": "2023-08-06T12:47:40.832Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b0ba1dc8-82de-4731-9e43-35e21be82225"
+      },
+      {
+        "id": "940a08b4-39d7-4f9d-9eb0-75294fbde427",
+        "usage_date": "2023-08-06T14:38:50.576Z",
+        "usage_time": "2023-08-07T07:41:09.005Z",
+        "created_at": "2023-08-06T10:30:31.324Z",
+        "updated_at": "2023-08-06T20:52:11.577Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "71ef70cf-7630-4b52-8899-c1d74e49e2ab"
+      },
+      {
+        "id": "aa3ab3f8-f672-4161-8cda-4ebb3f00aa5b",
+        "usage_date": "2023-08-06T22:45:27.228Z",
+        "usage_time": "2023-08-06T11:01:29.667Z",
+        "created_at": "2023-08-06T10:53:51.713Z",
+        "updated_at": "2023-08-06T18:31:51.052Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3334de6d-038a-467f-8518-3e4a0e9cf306"
+      },
+      {
+        "id": "2accc26f-3102-442d-8598-2be7e2d54846",
+        "usage_date": "2023-08-06T19:57:54.262Z",
+        "usage_time": "2023-08-07T03:52:17.924Z",
+        "created_at": "2023-08-07T07:35:09.749Z",
+        "updated_at": "2023-08-06T13:19:23.554Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba4fb7a3-d06f-4cfb-a25a-58755d68a4fe"
+      },
+      {
+        "id": "7bb2e8b9-9272-49c7-85a1-82c82a61a6ea",
+        "usage_date": "2023-08-07T00:21:11.299Z",
+        "usage_time": "2023-08-06T22:13:04.916Z",
+        "created_at": "2023-08-07T05:07:39.403Z",
+        "updated_at": "2023-08-07T04:06:01.172Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba4fb7a3-d06f-4cfb-a25a-58755d68a4fe"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "61eaa7f2-eeb4-4925-ab07-c298bdd7f9f0",
+        "start_time": "2023-08-06T11:48:05.471Z",
+        "end_time": "2023-08-06T19:54:31.827Z",
+        "created_at": "2023-08-06T17:08:40.719Z",
+        "updated_at": "2023-08-06T17:33:22.565Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba4fb7a3-d06f-4cfb-a25a-58755d68a4fe"
+      },
+      {
+        "id": "5b359cd8-3c8f-40b3-8564-a12e5d8b8f02",
+        "start_time": "2023-08-06T20:14:28.184Z",
+        "end_time": "2023-08-06T23:45:35.211Z",
+        "created_at": "2023-08-06T09:38:45.529Z",
+        "updated_at": "2023-08-06T19:04:11.271Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3334de6d-038a-467f-8518-3e4a0e9cf306"
+      },
+      {
+        "id": "fd84fa4a-e50f-4dad-9cfa-a91f29285123",
+        "start_time": "2023-08-06T21:13:34.226Z",
+        "end_time": "2023-08-06T13:26:26.307Z",
+        "created_at": "2023-08-07T06:17:27.790Z",
+        "updated_at": "2023-08-07T00:25:40.554Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba4fb7a3-d06f-4cfb-a25a-58755d68a4fe"
+      },
+      {
+        "id": "c1a81522-5fc0-41b2-8633-66e4fd61132c",
+        "start_time": "2023-08-06T17:15:00.387Z",
+        "end_time": "2023-08-06T13:16:52.391Z",
+        "created_at": "2023-08-07T03:13:31.533Z",
+        "updated_at": "2023-08-07T05:17:00.429Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "71ef70cf-7630-4b52-8899-c1d74e49e2ab"
+      },
+      {
+        "id": "9b9795fa-d01e-49f8-843e-93adfcacef9b",
+        "start_time": "2023-08-07T00:02:34.327Z",
+        "end_time": "2023-08-07T04:09:43.620Z",
+        "created_at": "2023-08-06T12:22:36.852Z",
+        "updated_at": "2023-08-06T20:21:20.096Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba4fb7a3-d06f-4cfb-a25a-58755d68a4fe"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "91c2c63b-d9cc-4a84-aa24-5c826e2012b1",
+        "info": "Sedan",
+        "created_at": "2023-08-06T18:42:47.828Z",
+        "updated_at": "2023-08-06T16:57:41.089Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf7f37f6-13bc-41f3-b42c-be385377db80",
+        "info": "SUV",
+        "created_at": "2023-08-07T07:16:09.499Z",
+        "updated_at": "2023-08-06T19:40:17.777Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c3671247-8b80-4d7b-96b4-e5f5a40a0b6c",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T15:53:48.550Z",
+        "updated_at": "2023-08-07T06:49:51.930Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "48d74e6c-459a-4409-a081-0d7bc5517795",
+        "info": "Truck",
+        "created_at": "2023-08-07T01:15:00.058Z",
+        "updated_at": "2023-08-06T12:42:04.973Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4ee63220-b492-4e95-9a53-a11a6547d590",
+        "info": "Motorcycle",
+        "created_at": "2023-08-07T00:29:14.263Z",
+        "updated_at": "2023-08-06T18:36:17.337Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "a79fe12e-3d19-474a-bfb2-775c753c5fb7",
+        "usage_date": "2023-08-07T02:17:08.456Z",
+        "usage_time": "2023-08-06T15:02:21.730Z",
+        "created_at": "2023-08-06T18:17:27.643Z",
+        "updated_at": "2023-08-07T06:16:15.047Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c3671247-8b80-4d7b-96b4-e5f5a40a0b6c"
+      },
+      {
+        "id": "e3971500-cae6-4b6e-8e2a-2dc0c99e32b0",
+        "usage_date": "2023-08-07T06:29:21.126Z",
+        "usage_time": "2023-08-07T01:39:10.754Z",
+        "created_at": "2023-08-07T08:17:46.899Z",
+        "updated_at": "2023-08-07T03:39:38.187Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c3671247-8b80-4d7b-96b4-e5f5a40a0b6c"
+      },
+      {
+        "id": "1b5485ee-14b7-4bd1-838f-a3e9b738edba",
+        "usage_date": "2023-08-07T01:04:47.715Z",
+        "usage_time": "2023-08-06T12:08:32.590Z",
+        "created_at": "2023-08-06T10:37:33.267Z",
+        "updated_at": "2023-08-07T03:28:48.804Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf7f37f6-13bc-41f3-b42c-be385377db80"
+      },
+      {
+        "id": "4eccbc22-d17c-4394-8357-3b79ef8b52ac",
+        "usage_date": "2023-08-06T19:32:25.261Z",
+        "usage_time": "2023-08-06T14:21:50.323Z",
+        "created_at": "2023-08-07T03:38:01.369Z",
+        "updated_at": "2023-08-06T20:23:39.201Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf7f37f6-13bc-41f3-b42c-be385377db80"
+      },
+      {
+        "id": "a03d4dca-2ac2-4183-b1a7-673a7278311e",
+        "usage_date": "2023-08-06T21:44:25.207Z",
+        "usage_time": "2023-08-06T23:54:13.148Z",
+        "created_at": "2023-08-06T23:30:55.923Z",
+        "updated_at": "2023-08-06T10:10:16.236Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf7f37f6-13bc-41f3-b42c-be385377db80"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "56cdbd73-515f-48b6-8211-e2b408785008",
+        "start_time": "2023-08-07T02:02:39.821Z",
+        "end_time": "2023-08-07T05:35:25.479Z",
+        "created_at": "2023-08-06T15:39:30.176Z",
+        "updated_at": "2023-08-06T19:58:24.436Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf7f37f6-13bc-41f3-b42c-be385377db80"
+      },
+      {
+        "id": "bcb36822-5225-46f7-9f2b-d74025ee4616",
+        "start_time": "2023-08-07T01:47:59.892Z",
+        "end_time": "2023-08-06T17:16:55.641Z",
+        "created_at": "2023-08-06T08:52:03.092Z",
+        "updated_at": "2023-08-06T12:34:04.302Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c3671247-8b80-4d7b-96b4-e5f5a40a0b6c"
+      },
+      {
+        "id": "245508eb-b483-476f-9bed-d8277abdd6bc",
+        "start_time": "2023-08-06T20:47:36.543Z",
+        "end_time": "2023-08-07T06:51:34.060Z",
+        "created_at": "2023-08-07T08:36:26.261Z",
+        "updated_at": "2023-08-06T11:47:46.664Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf7f37f6-13bc-41f3-b42c-be385377db80"
+      },
+      {
+        "id": "7ca70a96-191d-402a-9c67-df1b00ac968b",
+        "start_time": "2023-08-06T13:00:34.098Z",
+        "end_time": "2023-08-07T04:47:20.624Z",
+        "created_at": "2023-08-06T15:11:48.616Z",
+        "updated_at": "2023-08-07T07:39:14.194Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c3671247-8b80-4d7b-96b4-e5f5a40a0b6c"
+      },
+      {
+        "id": "2eed9939-f21e-4d94-869b-923ae050658a",
+        "start_time": "2023-08-07T03:27:44.115Z",
+        "end_time": "2023-08-06T17:20:07.244Z",
+        "created_at": "2023-08-07T01:50:02.137Z",
+        "updated_at": "2023-08-06T12:47:51.943Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cf7f37f6-13bc-41f3-b42c-be385377db80"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "90629847-cc68-4ff0-b259-d27532eff946",
+        "info": "Sedan",
+        "created_at": "2023-08-06T17:30:19.472Z",
+        "updated_at": "2023-08-07T08:20:56.864Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2959b0df-6a0d-44fc-8d4e-2dd31f55024f",
+        "info": "SUV",
+        "created_at": "2023-08-06T11:16:19.344Z",
+        "updated_at": "2023-08-07T08:35:45.282Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "98a79d30-63a2-41f4-af61-e259f6b977ca",
+        "info": "Sports Car",
+        "created_at": "2023-08-07T01:30:28.625Z",
+        "updated_at": "2023-08-06T19:18:41.558Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e55b506-5c45-4aa7-b927-e04b3294ce11",
+        "info": "Truck",
+        "created_at": "2023-08-07T05:27:31.232Z",
+        "updated_at": "2023-08-07T02:04:59.024Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c2dd4642-e5b1-4d79-8294-71f80b946bea",
+        "info": "Motorcycle",
+        "created_at": "2023-08-06T15:13:27.498Z",
+        "updated_at": "2023-08-06T19:36:20.051Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "93fd8c39-6c68-492f-8876-4d10eaf3288d",
+        "usage_date": "2023-08-06T19:25:43.429Z",
+        "usage_time": "2023-08-06T17:37:22.261Z",
+        "created_at": "2023-08-06T09:23:38.363Z",
+        "updated_at": "2023-08-06T21:56:28.530Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c2dd4642-e5b1-4d79-8294-71f80b946bea"
+      },
+      {
+        "id": "497b48f8-4599-41f5-86b8-d742c1653cdf",
+        "usage_date": "2023-08-06T23:04:36.603Z",
+        "usage_time": "2023-08-07T00:07:46.510Z",
+        "created_at": "2023-08-07T04:17:41.277Z",
+        "updated_at": "2023-08-06T14:09:31.089Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "90629847-cc68-4ff0-b259-d27532eff946"
+      },
+      {
+        "id": "aa33c94e-b097-4293-a2bb-53889d796273",
+        "usage_date": "2023-08-06T15:55:28.923Z",
+        "usage_time": "2023-08-06T11:38:04.377Z",
+        "created_at": "2023-08-06T19:11:07.127Z",
+        "updated_at": "2023-08-06T19:23:48.030Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9e55b506-5c45-4aa7-b927-e04b3294ce11"
+      },
+      {
+        "id": "e091ad73-f6ea-4ac5-aeca-7bfc1dc13726",
+        "usage_date": "2023-08-07T05:46:31.179Z",
+        "usage_time": "2023-08-07T04:49:50.584Z",
+        "created_at": "2023-08-07T05:52:58.741Z",
+        "updated_at": "2023-08-06T17:00:39.981Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2959b0df-6a0d-44fc-8d4e-2dd31f55024f"
+      },
+      {
+        "id": "5ca3e706-d6ac-48cb-a347-31d2a207ae1d",
+        "usage_date": "2023-08-06T21:22:45.159Z",
+        "usage_time": "2023-08-06T21:12:40.628Z",
+        "created_at": "2023-08-06T19:39:59.718Z",
+        "updated_at": "2023-08-07T02:45:12.087Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "90629847-cc68-4ff0-b259-d27532eff946"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "679111b9-2387-4a75-a408-c72b849b3b07",
+        "start_time": "2023-08-07T06:40:37.024Z",
+        "end_time": "2023-08-07T06:54:46.658Z",
+        "created_at": "2023-08-07T05:25:31.798Z",
+        "updated_at": "2023-08-06T14:19:38.614Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9e55b506-5c45-4aa7-b927-e04b3294ce11"
+      },
+      {
+        "id": "5fb58892-c2f9-4778-aaf0-2fa77a15c666",
+        "start_time": "2023-08-07T01:10:34.275Z",
+        "end_time": "2023-08-07T01:40:41.265Z",
+        "created_at": "2023-08-07T01:50:14.109Z",
+        "updated_at": "2023-08-07T05:10:27.870Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c2dd4642-e5b1-4d79-8294-71f80b946bea"
+      },
+      {
+        "id": "9f09f691-a4b2-46cc-9827-c97116106bb9",
+        "start_time": "2023-08-06T17:33:39.352Z",
+        "end_time": "2023-08-07T08:37:52.728Z",
+        "created_at": "2023-08-07T01:22:34.786Z",
+        "updated_at": "2023-08-07T05:26:04.710Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "98a79d30-63a2-41f4-af61-e259f6b977ca"
+      },
+      {
+        "id": "7d6a18f5-7442-4306-badf-983497bfd04a",
+        "start_time": "2023-08-06T21:20:18.112Z",
+        "end_time": "2023-08-06T23:29:33.901Z",
+        "created_at": "2023-08-06T09:51:39.534Z",
+        "updated_at": "2023-08-06T16:18:21.536Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2959b0df-6a0d-44fc-8d4e-2dd31f55024f"
+      },
+      {
+        "id": "52f1f19e-1ee1-4fcb-a680-a7c2451f0f0e",
+        "start_time": "2023-08-06T18:03:03.362Z",
+        "end_time": "2023-08-06T21:19:39.058Z",
+        "created_at": "2023-08-06T23:06:11.451Z",
+        "updated_at": "2023-08-06T14:00:31.144Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "90629847-cc68-4ff0-b259-d27532eff946"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "6e38ba36-66f3-4ac3-90d1-0aae989131ae",
+        "info": "Sedan",
+        "created_at": "2023-08-07T08:17:05.684Z",
+        "updated_at": "2023-08-07T07:41:25.875Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c19c88a9-7679-469e-822d-a1ae74d71ab6",
+        "info": "SUV",
+        "created_at": "2023-08-06T11:27:50.814Z",
+        "updated_at": "2023-08-06T21:53:16.954Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "05ea5821-329c-4881-bf95-fef2669c7787",
+        "info": "Sports Car",
+        "created_at": "2023-08-06T12:28:16.827Z",
+        "updated_at": "2023-08-06T19:42:27.420Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fd5bb271-1852-43ef-9a01-9b8e64c1559e",
+        "info": "Truck",
+        "created_at": "2023-08-06T12:09:06.082Z",
+        "updated_at": "2023-08-06T11:12:11.274Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e58aa65b-79cd-4ac6-9d6d-a1538e38177e",
+        "info": "Motorcycle",
+        "created_at": "2023-08-07T00:57:45.059Z",
+        "updated_at": "2023-08-06T23:54:52.282Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "fb250745-ab31-43f7-9f80-350721062f68",
+        "usage_date": "2023-08-07T06:07:16.613Z",
+        "usage_time": "2023-08-06T09:36:25.745Z",
+        "created_at": "2023-08-06T21:42:37.251Z",
+        "updated_at": "2023-08-06T19:51:58.403Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c19c88a9-7679-469e-822d-a1ae74d71ab6"
+      },
+      {
+        "id": "30438119-91b2-46f3-b989-ef159f100149",
+        "usage_date": "2023-08-06T13:37:48.538Z",
+        "usage_time": "2023-08-07T07:13:02.510Z",
+        "created_at": "2023-08-07T08:23:38.656Z",
+        "updated_at": "2023-08-06T21:00:49.923Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6e38ba36-66f3-4ac3-90d1-0aae989131ae"
+      },
+      {
+        "id": "480537f1-126f-4b3b-ae9c-b44f9aaaee67",
+        "usage_date": "2023-08-06T23:36:14.559Z",
+        "usage_time": "2023-08-06T22:04:18.998Z",
+        "created_at": "2023-08-06T09:45:41.556Z",
+        "updated_at": "2023-08-07T05:34:14.488Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "05ea5821-329c-4881-bf95-fef2669c7787"
+      },
+      {
+        "id": "38e006ab-ee8c-4377-a4d0-6f0b1b983362",
+        "usage_date": "2023-08-07T01:52:17.899Z",
+        "usage_time": "2023-08-06T09:54:35.304Z",
+        "created_at": "2023-08-06T16:41:15.895Z",
+        "updated_at": "2023-08-07T00:50:30.882Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "05ea5821-329c-4881-bf95-fef2669c7787"
+      },
+      {
+        "id": "df533482-5730-4691-b82e-69255b5fe952",
+        "usage_date": "2023-08-06T17:41:17.342Z",
+        "usage_time": "2023-08-07T02:31:30.653Z",
+        "created_at": "2023-08-06T20:01:21.127Z",
+        "updated_at": "2023-08-06T10:38:05.892Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e58aa65b-79cd-4ac6-9d6d-a1538e38177e"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "a7a93d7e-0e18-4efa-a04a-d3b42ec75373",
+        "start_time": "2023-08-06T21:04:49.050Z",
+        "end_time": "2023-08-07T03:01:03.160Z",
+        "created_at": "2023-08-07T07:17:46.105Z",
+        "updated_at": "2023-08-07T02:18:04.000Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e58aa65b-79cd-4ac6-9d6d-a1538e38177e"
+      },
+      {
+        "id": "825adf0e-9e9f-4dbf-a044-f62639deba87",
+        "start_time": "2023-08-07T03:12:49.386Z",
+        "end_time": "2023-08-07T00:03:01.700Z",
+        "created_at": "2023-08-06T11:22:15.937Z",
+        "updated_at": "2023-08-06T15:23:26.396Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fd5bb271-1852-43ef-9a01-9b8e64c1559e"
+      },
+      {
+        "id": "5c6c20a0-ef5c-4bcc-b7ea-806cdfe1423a",
+        "start_time": "2023-08-06T22:46:41.058Z",
+        "end_time": "2023-08-06T16:33:47.549Z",
+        "created_at": "2023-08-06T21:07:08.362Z",
+        "updated_at": "2023-08-06T10:13:57.503Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "05ea5821-329c-4881-bf95-fef2669c7787"
+      },
+      {
+        "id": "8322e7d2-2a32-4f4d-959f-79097dd78b06",
+        "start_time": "2023-08-06T14:29:49.418Z",
+        "end_time": "2023-08-06T16:06:46.863Z",
+        "created_at": "2023-08-06T20:09:35.504Z",
+        "updated_at": "2023-08-07T00:44:08.739Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fd5bb271-1852-43ef-9a01-9b8e64c1559e"
+      },
+      {
+        "id": "d9e21f93-2611-4171-b455-0face6dd9f1d",
+        "start_time": "2023-08-06T09:59:10.227Z",
+        "end_time": "2023-08-06T16:38:40.170Z",
+        "created_at": "2023-08-06T09:10:18.451Z",
+        "updated_at": "2023-08-06T22:21:29.565Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fd5bb271-1852-43ef-9a01-9b8e64c1559e"
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "31e74db3-5c3b-41eb-a406-943231c9caa0",
+        "info": "Sedan",
+        "created_at": "2023-08-06T18:50:46.866Z",
+        "updated_at": "2023-08-06T22:55:49.647Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e3e31ef9-859f-4169-8d0d-57dcccb75c3a",
+        "info": "SUV",
+        "created_at": "2023-08-07T02:32:28.646Z",
+        "updated_at": "2023-08-07T04:57:57.828Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba89767b-2a8d-4bb9-8544-dae45623d1a8",
+        "info": "Sports Car",
+        "created_at": "2023-08-07T05:14:33.717Z",
+        "updated_at": "2023-08-06T15:11:40.148Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eb2ff9aa-de86-4bed-b358-b43f63b37c7f",
+        "info": "Truck",
+        "created_at": "2023-08-06T16:05:26.804Z",
+        "updated_at": "2023-08-07T08:42:00.120Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5acdd0c6-8d22-447a-8890-c22a9585628f",
+        "info": "Motorcycle",
+        "created_at": "2023-08-06T22:33:29.157Z",
+        "updated_at": "2023-08-06T11:33:49.350Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "734ea67e-3289-4a04-826a-634b82b5509b",
+        "usage_date": "2023-08-06T10:59:10.027Z",
+        "usage_time": "2023-08-07T06:29:53.595Z",
+        "created_at": "2023-08-06T22:14:12.962Z",
+        "updated_at": "2023-08-07T08:34:58.618Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba89767b-2a8d-4bb9-8544-dae45623d1a8"
+      },
+      {
+        "id": "60c0e95c-a27f-4a93-bebc-99ce8a82afd6",
+        "usage_date": "2023-08-06T12:11:21.629Z",
+        "usage_time": "2023-08-06T09:53:26.440Z",
+        "created_at": "2023-08-06T15:51:20.601Z",
+        "updated_at": "2023-08-06T17:16:40.790Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5acdd0c6-8d22-447a-8890-c22a9585628f"
+      },
+      {
+        "id": "8440623e-f2dc-4e39-bb35-ea0e5d2fb60e",
+        "usage_date": "2023-08-06T22:59:09.245Z",
+        "usage_time": "2023-08-06T09:45:59.100Z",
+        "created_at": "2023-08-06T12:59:06.668Z",
+        "updated_at": "2023-08-07T04:13:48.398Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5acdd0c6-8d22-447a-8890-c22a9585628f"
+      },
+      {
+        "id": "517b7457-86a3-4756-b7d8-f309be8848b9",
+        "usage_date": "2023-08-07T02:25:34.139Z",
+        "usage_time": "2023-08-06T23:37:12.253Z",
+        "created_at": "2023-08-06T18:04:29.958Z",
+        "updated_at": "2023-08-07T02:52:44.523Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5acdd0c6-8d22-447a-8890-c22a9585628f"
+      },
+      {
+        "id": "480a4060-bdca-4891-ac6a-ee816a028839",
+        "usage_date": "2023-08-06T23:17:20.632Z",
+        "usage_time": "2023-08-06T20:11:46.365Z",
+        "created_at": "2023-08-07T07:16:51.001Z",
+        "updated_at": "2023-08-06T11:08:34.486Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "eb2ff9aa-de86-4bed-b358-b43f63b37c7f"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "b1e39ca9-b4bd-4b12-94bd-124a595925e6",
+        "start_time": "2023-08-06T13:40:56.148Z",
+        "end_time": "2023-08-06T15:39:20.677Z",
+        "created_at": "2023-08-06T12:12:04.899Z",
+        "updated_at": "2023-08-06T15:59:37.830Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "eb2ff9aa-de86-4bed-b358-b43f63b37c7f"
+      },
+      {
+        "id": "4f19267f-3329-4225-b56a-593d9e7be6ed",
+        "start_time": "2023-08-06T23:14:22.108Z",
+        "end_time": "2023-08-06T12:22:11.517Z",
+        "created_at": "2023-08-07T07:45:07.609Z",
+        "updated_at": "2023-08-06T17:40:02.557Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba89767b-2a8d-4bb9-8544-dae45623d1a8"
+      },
+      {
+        "id": "4008c9a3-eee1-4f15-819e-d2b2b199addc",
+        "start_time": "2023-08-07T03:35:42.856Z",
+        "end_time": "2023-08-06T10:06:44.052Z",
+        "created_at": "2023-08-06T14:14:04.517Z",
+        "updated_at": "2023-08-06T10:31:32.581Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e3e31ef9-859f-4169-8d0d-57dcccb75c3a"
+      },
+      {
+        "id": "fcce7301-c6b3-4de9-a211-dc8773b4472f",
+        "start_time": "2023-08-06T19:31:26.482Z",
+        "end_time": "2023-08-06T10:10:39.881Z",
+        "created_at": "2023-08-06T22:29:00.552Z",
+        "updated_at": "2023-08-06T09:23:10.298Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "eb2ff9aa-de86-4bed-b358-b43f63b37c7f"
+      },
+      {
+        "id": "169b0d7d-a9c5-4ca9-9a19-4c63c30e4f65",
+        "start_time": "2023-08-06T09:52:09.200Z",
+        "end_time": "2023-08-07T02:53:37.893Z",
+        "created_at": "2023-08-06T23:22:11.033Z",
+        "updated_at": "2023-08-06T19:41:53.428Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "eb2ff9aa-de86-4bed-b358-b43f63b37c7f"
+      }
+    ]
+  }
+]
